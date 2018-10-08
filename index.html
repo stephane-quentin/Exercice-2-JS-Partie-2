@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 2</title>
+</head>
+<body>
+  <form>
+    <label for="lastname">Votre nom  : </label><input type="text" name="lastname" id="lastname" onfocusout="ex2()"/>
+  </form>
+<script type="text/javascript">
+  function ex2(){
+    var name = document.getElementById('lastname').value;
+    alert('Merci de votre participation ' + name);
+  }
+</script>
+</body>
+</html>
